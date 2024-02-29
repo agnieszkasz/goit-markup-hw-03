@@ -222,7 +222,7 @@ header div {
     
 }
 
-nav a {
+nav ul li a {
     padding: 24px 0;
 }
 .menu {
