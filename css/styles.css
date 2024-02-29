@@ -129,6 +129,7 @@ section.first div {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    visibility: hidden;
 }
 .third-list {
     display: flex;
@@ -219,6 +220,10 @@ header div {
     display: flex;
     align-items: center;
     
+}
+
+nav a {
+    padding: 24px 0;
 }
 .menu {
     display: flex;
