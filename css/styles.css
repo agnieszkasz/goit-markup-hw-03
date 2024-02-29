@@ -6,6 +6,9 @@ body {
 a {
     text-decoration: none;
 }
+ul {
+    list-style-type: none;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -34,6 +37,9 @@ color: #2e2f42
 }
 .address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .address-list {
     line-height: 1.5;
@@ -48,6 +54,11 @@ color: #2e2f42
 .first {
     background-color: #2e2f42;
     padding: 188px 0;
+}
+section.first div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .first-heading {
     font-size: 56px;
@@ -76,6 +87,7 @@ color: #2e2f42
 .butt:hover,
 .butt:focus {
    background-color: #404BBF;
+   border: 1px solid red;
 }
 .second {
     padding: 120px 0;
@@ -83,7 +95,6 @@ color: #2e2f42
 
 .third-heading {
     text-align: center;
-    margin-bottom: 8px;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -174,7 +185,12 @@ color: #2e2f42
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-
+footer div a {
+    height: 21px;
+}
+footer div {
+    display: block;
+}
 img {
     display: block; 
 }
@@ -185,6 +201,15 @@ img {
 div {
     display: flex;
 }
+section.heading div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+header div {
+        justify-content: space-between;
+
+}
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -193,6 +218,7 @@ div {
 .navigation {
     display: flex;
     align-items: center;
+    
 }
 .menu {
     display: flex;
@@ -204,4 +230,5 @@ div {
 .add-list {
     display: flex;
     gap: 40px;
+    justify-content: flex-end;
 }
