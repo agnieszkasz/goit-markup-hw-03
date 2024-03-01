@@ -94,7 +94,7 @@ section.first div {
 }
 
 .third-heading {
-    text-align: left;
+    text-align: center;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -106,7 +106,7 @@ section.first div {
     display: flex;
     gap: 24px;
 }
-.second-section-list-point {
+li.second-section-list-point {
     width: calc((100% - 72px) / 4);
 }
 .section-list-point {
@@ -114,6 +114,7 @@ section.first div {
     letter-spacing: 0.02em;
     color: #434455;
     margin-bottom: 8px;
+    text-align: center;
 }
 .third {
     padding: 120px 0;
@@ -163,7 +164,7 @@ section.first div {
     column-gap: 24px;
     row-gap: 48px;
 }
-.fourth-section-list-point {
+li.fourth-section-list-point {
     width: calc((100% - 48px) / 3); 
 }
 .app-name {
