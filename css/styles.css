@@ -261,3 +261,9 @@ nav ul li a {
     gap: 40px;
     justify-content: flex-end;
 }
+section.fourth div {
+    flex-direction: column;
+}
+section.third div {
+    flex-direction: column;
+}
