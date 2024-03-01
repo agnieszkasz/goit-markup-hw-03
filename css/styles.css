@@ -138,6 +138,7 @@ section.first div {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    height: 40px;
 }
 .visually-hidden {
     position: absolute;
