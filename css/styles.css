@@ -8,7 +8,17 @@ a {
 }
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+p {
+    margin: 0;
+}
+h2, 
+h3 {
+margin: 0;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -106,7 +116,7 @@ section.first div {
     display: flex;
     gap: 24px;
 }
-li.second-section-list-point {
+.second-section-list-point {
     width: calc((100% - 72px) / 4);
 }
 .section-list-point {
@@ -164,7 +174,7 @@ li.second-section-list-point {
     column-gap: 24px;
     row-gap: 48px;
 }
-li.fourth-section-list-point {
+.fourth-section-list-point {
     width: calc((100% - 48px) / 3); 
 }
 .app-name {
